@@ -75,7 +75,7 @@ bash bash/fewnerd/10wat_5shot_mode.sh [gpu_id] [mode]
     - mode: intra/inter
     e.g., bash/fewnerd/10wat_5shot_mode.sh 0 inter
 ```
-### SNIPS and Cross
+### SNIPS
 ```
 bash bash/snips/1-shot/1_shot_mode_1.sh [gpu_id]
 ...
@@ -85,6 +85,18 @@ bash bash/snips/1-shot/1_shot_mode_7.sh [gpu_id]
 bash bash/snips/5-shot/5_shot_mode_1.sh [gpu_id]
 ...
 bash bash/snips/5-shot/5_shot_mode_7.sh [gpu_id]
+```
+
+### Cross
+```
+bash bash/ner/1-shot/1_shot_mode_1.sh [gpu_id]
+...
+bash bash/ner/1-shot/1_shot_mode_4.sh [gpu_id]
+```
+```
+bash bash/ner/5-shot/5_shot_mode_1.sh [gpu_id]
+...
+bash bash/ner/5-shot/5_shot_mode_4.sh [gpu_id]
 ```
 
 
