@@ -103,7 +103,7 @@ def main():
     
     parser.add_argument('--hyper', default=0.1, type=float)
     
-    parser.add_argument('--consistent_loss', default='KL', type=str)
+    parser.add_argument('--consistent_loss', default='distill', type=str)
     
     parser.add_argument('--temperature', default=0.5, type=float)
     
