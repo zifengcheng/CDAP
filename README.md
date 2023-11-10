@@ -102,3 +102,6 @@ bash bash/ner/5-shot/5_shot_mode_4.sh [gpu_id]
 
 # Acknowledgments
 We thank all authors from this paper: '[An Enhanced Span-based Decomposition Method for Few-Shot Sequence Labeling](https://github.com/Wangpeiyi9979/ESD)'. We adopt many codes from their projects.
+
+# Contact
+If there are any questions, please feel free to contact me: Zifeng Cheng (chengzf@smail.nju.edu.cn).
