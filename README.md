@@ -1,5 +1,5 @@
 # Unifying Token and Span Level Supervisions for Few-Shot Sequence Labeling
-Code of Our Paper "Unifying Token and Span Level Supervisions for Few-Shot Sequence Labeling"
+Code of Our TOIS'23 Paper "Unifying Token and Span Level Supervisions for Few-Shot Sequence Labeling"
 
 
 ## Enviroment
@@ -102,6 +102,31 @@ bash bash/ner/5-shot/5_shot_mode_4.sh [gpu_id]
 
 # Acknowledgments
 We thank all authors from this paper: '[An Enhanced Span-based Decomposition Method for Few-Shot Sequence Labeling](https://github.com/Wangpeiyi9979/ESD)'. We adopt many codes from their projects.
+
+# 🌝 Citation
+If you use our code, please cite our paper:
+```
+@article{DBLP:journals/tois/ChengZJZCG24,
+  author       = {Zifeng Cheng and
+                  Qingyu Zhou and
+                  Zhiwei Jiang and
+                  Xuemin Zhao and
+                  Yunbo Cao and
+                  Qing Gu},
+  title        = {Unifying Token- and Span-level Supervisions for Few-shot Sequence
+                  Labeling},
+  journal      = {{ACM} Trans. Inf. Syst.},
+  volume       = {42},
+  number       = {1},
+  pages        = {32:1--32:27},
+  year         = {2024},
+  url          = {https://doi.org/10.1145/3610403},
+  doi          = {10.1145/3610403},
+  timestamp    = {Sun, 10 Dec 2023 17:01:03 +0100},
+  biburl       = {https://dblp.org/rec/journals/tois/ChengZJZCG24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
 # Contact
 If there are any questions, please feel free to contact me: Zifeng Cheng (chengzf@smail.nju.edu.cn).
